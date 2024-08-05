@@ -81,6 +81,9 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-harrisong5-gbtchatbot-o5q3mpj0b7o.ws.codeinstitute-ide.net/",
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
